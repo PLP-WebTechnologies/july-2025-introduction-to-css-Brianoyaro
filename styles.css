@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: #3a5c7f;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul li {
+    padding: 20px 0;
+    display: inline;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+   color: aqua;
+}
+
+main {
+    padding: 20px;
+    background-color: white;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+}
+#contact {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #3a5c7f;;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+#name, #email {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+#contact button {
+    background-color: #6e776c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#contact button:hover {
+    background-color: #95cf95;
+}
+#contact form {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+#contact label {
+    font-weight: bold;
+}
